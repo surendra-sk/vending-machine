@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    background-image: url('/static/shaktiman-logo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; /* Adjust text color for better visibility */
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for readability */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Light shadow */
+    color: white;
+}
+
+h1, h2 {
+    color: white;
+}
+
+.btn {
+    margin: 5px;
+}
