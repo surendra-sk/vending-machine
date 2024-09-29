@@ -5,7 +5,7 @@ from razorpay.errors import BadRequestError
 app = Flask(__name__)
 
 # Razorpay credentials
-key_id = 'rzp_test_l9ig42sMEsK2If'
+key_id = 
 key_secret = 
 client = razorpay.Client(auth=(key_id, key_secret))
 
