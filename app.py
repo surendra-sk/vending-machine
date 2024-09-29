@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 # Razorpay credentials
 key_id = 'rzp_test_l9ig42sMEsK2If'
-key_secret = '4RNVfOSrLsnJOHfJysVWxfgf'
+key_secret = 
 client = razorpay.Client(auth=(key_id, key_secret))
 
 # Dummy data for items and prices
